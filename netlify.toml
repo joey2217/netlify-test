@@ -1,9 +1,6 @@
 [[edge_functions]]
   path = "/test"
   function = "hello"
-[[edge_functions]]
-  path = "/*"
-  function = "index"
 [[redirects]]
   from = "/proxy/*"
   to = "https://i-video.vercel.app/api/proxy"
