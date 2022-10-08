@@ -3,5 +3,5 @@
   function = "hello"
 [[redirects]]
   from = "/proxy/*"
-  to = "https://i-video.vercel.app/api/proxy"
+  to = "https://i-video.vercel.app/api/:splat"
   status = 200
